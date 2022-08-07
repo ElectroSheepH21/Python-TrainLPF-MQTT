@@ -1,0 +1,11 @@
+[Unit]
+Description=TrainLPF MQTT service
+After=network.target
+
+[Service]
+Restart=always
+RestartSec=10
+ExecStart=/usr/bin/python3 /home/pi/Python-TrainLPF-MQTT/main.py
+
+[Install]
+WantedBy=multi-user.target
