@@ -9,7 +9,7 @@ This repository provides a Python script which allows to control a Lego Power Fu
 - Lego Power Functions train motor
 - H-bridge (TB6612FNG)
 - Raspberry Pi camera (optional)
-- OLED display(SH1106)
+- OLED display (optional)
 
 ## Pinouts/hookup guides
 - [Raspberry Pi](https://pinout.xyz/)
