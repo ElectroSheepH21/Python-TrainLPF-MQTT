@@ -27,7 +27,7 @@ except:
 
 try:
     font_path = str(Path(__file__).parent.resolve().joinpath('C&C Red Alert [INET].ttf'))
-    font = ImageFont.truetype(font_path, 12)
+    font = ImageFont.truetype(font_path, 20)
 except IOError:
     display = None
     print("Font file not found --> Display not available")
