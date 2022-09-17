@@ -1,4 +1,6 @@
 # Python-TrainLPF-MQTT
+![20220917_210807](https://user-images.githubusercontent.com/79997234/190872951-c59ddde9-2a2e-4362-8d80-c04cb46a442c.jpg)
+![sv3_new](https://user-images.githubusercontent.com/79997234/190872978-b6569bae-6f2f-4c89-8112-3d2c0cb6e232.gif)
 
 ## Overview
 This repository provides a Python script which allows to control a Lego Power Functions (LPF) train via the MQTT protocol. The broker settings as well as the MQTT settings can be configured via the `config.json` file. For the interaction with the LPF motor the TB6612FNG H-bridge driver IC was used. This IC provides a low voltage drop and fits due to its size well into the train. This project was created with a Raspberry Pi Zero and the Raspberry Pi OS on it. Therefore the username in the files is `pi`. This single board computer fits as well as the H-bridge driver into the train. An OLED display is attached to the train and the text can be configured via MQTT. The system is powered by the Lego Power Functions battery box. A 5V buck converter is needed for supplying the Raspberry Pi.
